@@ -1,0 +1,164 @@
+.gpt3__footer {
+    background-color: var(--color-footer);
+}
+
+.gpt3__footer-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gpt3__footer-heading h1 {
+    font-family: var(--font-family);
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+
+.gpt3__footer-heading button {
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 218px;
+    height: 65px;
+    border: 1px solid rgb(190, 190, 190);
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px;
+    background: #031B34;
+    cursor: pointer;
+
+}
+
+.gpt3__footer-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.gpt3__footer-container-logo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 10rem;
+}
+
+.gpt3__footer-container-logo img {
+    width: 118px;
+    height: 30px;
+    margin-bottom: 2rem;
+
+}
+
+.gpt3__footer-container-logo p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: left;
+    color: #fff;
+
+}
+
+.gpt3__footer-container-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.gpt3__footer-container-links div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 4rem;
+
+}
+
+.gpt3__footer-container-links div p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 14px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.gpt3__footer-container-links div p:nth-child(1) {
+    font-weight: 800;
+}
+
+.gpt3__footer-copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gpt3__footer-copy p {
+    color: #807c7c;
+    font-family: var(--font-family);
+    font-size: 16px;
+
+}
+
+
+@media screen and (max-width:990px) {
+    .gpt3__footer-heading h1 {
+        font-size: 48px;
+    }
+
+    .gpt3__footer-container {
+        flex-direction: column;
+    }
+
+    .gpt3__footer-container-logo {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .gpt3__footer-heading h1 {
+        font-size: 42px;
+    }
+
+    .gpt3__footer-heading button {
+        width: 200px;
+        height: 60px;
+    }
+
+    .gpt3__footer-container-links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .gpt3__footer-container-links div {
+        margin: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width:450px) {
+.gpt3__footer-heading h1 {
+    font-size: 34px;
+    line-height: 46px;
+}
+}
